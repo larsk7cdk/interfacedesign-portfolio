@@ -1,31 +1,44 @@
-<section>
-  <div class="row">
-    <div class="col-md-4 col-12">
-      <div class="card">
-        <img src="assets/images/200x200.svg" alt="Card image cap" />
-        <div class="card-body">
-          <h5 class="card-title">Interface Design</h5>
-          <a href="#" class="btn btn-primary">Vis mig det</a>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4 col-12">
-      <div class="card">
-        <img src="assets/images/200x200.svg" alt="Card image cap" />
-        <div class="card-body">
-          <h5 class="card-title">Interaktions Design</h5>
-          <a href="#" class="btn btn-primary">Vis mig det</a>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4 col-12">
-      <div class="card">
-        <img src="assets/images/200x200.svg" alt="Card image cap" />
-        <div class="card-body">
-          <h5 class="card-title">Grafisk Design</h5>
-          <a href="#" class="btn btn-primary">Vis mig det</a>
-        </div>
-      </div>
+<header>
+  <div class="jumbotron jumbotron-fluid m-0">
+    <div class="container">
+      <h1 class="display-4">Interface Design</h1>
+      <p class="lead">Mit personlige portfolio</p>
     </div>
   </div>
+  <div class="">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+      <div class="container px-0">
+        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav" routerLinkActive="active">
+            <li
+              *ngFor="let item of NAV_ITEMS"
+              class="nav-item"
+              routerLinkActive="active"
+              [routerLinkActiveOptions]="{ exact: true }"
+            >
+              <a class="nav-link" routerLink="{{ item.routerLink }}">{{
+                item.routerName
+              }}</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>
+<section class="container mt-2">
+  <router-outlet></router-outlet>
 </section>
