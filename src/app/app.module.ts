@@ -6,12 +6,20 @@ import { AppComponent } from './app.component';
 import { RouterModule } from '@angular/router';
 import { HomeComponent } from './features/home/home.component';
 import { ContactModule } from './features/contact/contact.module';
+import { InterfaceDesignModule } from './features/interface-design/interface-design.module';
+import { InteractionsDesignModule } from './features/interactions-design/interactions-design.module';
+import { GraphicDesignModule } from './features/graphic-design/graphic-design.module';
+import { UsabilityModule } from './features/usability/usability.module';
 
 @NgModule({
   declarations: [AppComponent, HomeComponent],
   imports: [
     BrowserModule,
     RouterModule.forRoot(ROUTES, { enableTracing: false }),
+    InterfaceDesignModule,
+    InteractionsDesignModule,
+    GraphicDesignModule,
+    UsabilityModule,
     ContactModule
   ],
   providers: [],

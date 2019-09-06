@@ -1,0 +1,14 @@
+@import '~bootstrap/scss/bootstrap-grid.scss';
+
+.jumbotron {
+  background: #57c6d4;
+  height: 250px;
+}
+
+@include media-breakpoint-up(lg) {
+  .logo {
+    background: url('../assets/images/laptop.png') #57c6d4 no-repeat right;
+    background-size: 388px 200px;
+    height: 250px;
+  }
+}
