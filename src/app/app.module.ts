@@ -15,7 +15,7 @@ import { UsabilityModule } from './features/usability/usability.module';
   declarations: [AppComponent, HomeComponent],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(ROUTES, { enableTracing: false }),
+    RouterModule.forRoot(ROUTES, { enableTracing: false, useHash: true }),
     InterfaceDesignModule,
     InteractionsDesignModule,
     GraphicDesignModule,
