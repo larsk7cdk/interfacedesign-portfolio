@@ -10,12 +10,14 @@ import { InterfaceDesignModule } from './features/interface-design/interface-des
 import { InteractionsDesignModule } from './features/interactions-design/interactions-design.module';
 import { GraphicDesignModule } from './features/graphic-design/graphic-design.module';
 import { UsabilityModule } from './features/usability/usability.module';
+import { SketchingModule } from './features/sketching/sketching.module';
 
 @NgModule({
   declarations: [AppComponent, HomeComponent],
   imports: [
     BrowserModule,
     RouterModule.forRoot(ROUTES, { enableTracing: false, useHash: true }),
+    SketchingModule,
     InterfaceDesignModule,
     InteractionsDesignModule,
     GraphicDesignModule,

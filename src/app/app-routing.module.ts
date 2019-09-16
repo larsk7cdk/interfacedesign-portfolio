@@ -5,11 +5,16 @@ import { InterfaceDesignComponent } from './features/interface-design/interface-
 import { InteractionsDesignComponent } from './features/interactions-design/interactions-design.component';
 import { GraphicDesignComponent } from './features/graphic-design/graphic-design.component';
 import { UsabilityComponent } from './features/usability/usability.component';
+import {SketchingComponent} from './features/sketching/sketching.component';
 
 export const ROUTES: Routes = [
   {
     path: 'home',
     component: HomeComponent
+  },
+  {
+    path: 'sketching',
+    component: SketchingComponent
   },
   {
     path: 'interface-design',
