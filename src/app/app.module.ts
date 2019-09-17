@@ -11,6 +11,7 @@ import { InteractionsDesignModule } from './features/interactions-design/interac
 import { GraphicDesignModule } from './features/graphic-design/graphic-design.module';
 import { UsabilityModule } from './features/usability/usability.module';
 import { SketchingModule } from './features/sketching/sketching.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [AppComponent, HomeComponent],
@@ -22,7 +23,8 @@ import { SketchingModule } from './features/sketching/sketching.module';
     InteractionsDesignModule,
     GraphicDesignModule,
     UsabilityModule,
-    ContactModule
+    ContactModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
