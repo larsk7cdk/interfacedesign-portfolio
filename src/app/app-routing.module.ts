@@ -5,7 +5,8 @@ import { InterfaceDesignComponent } from './features/interface-design/interface-
 import { InteractionsDesignComponent } from './features/interactions-design/interactions-design.component';
 import { GraphicDesignComponent } from './features/graphic-design/graphic-design.component';
 import { UsabilityComponent } from './features/usability/usability.component';
-import {SketchingComponent} from './features/sketching/sketching.component';
+import { SketchingComponent } from './features/sketching/sketching.component';
+import { GestaltloveComponent } from './features/Gestaltlove/gestaltlove.component';
 
 export const ROUTES: Routes = [
   {
@@ -15,6 +16,10 @@ export const ROUTES: Routes = [
   {
     path: 'sketching',
     component: SketchingComponent
+  },
+  {
+    path: 'gestaltlove',
+    component: GestaltloveComponent
   },
   {
     path: 'interface-design',
