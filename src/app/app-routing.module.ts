@@ -6,7 +6,7 @@ import { InteractionsDesignComponent } from './features/interactions-design/inte
 import { GraphicDesignComponent } from './features/graphic-design/graphic-design.component';
 import { UsabilityComponent } from './features/usability/usability.component';
 import { SketchingComponent } from './features/sketching/sketching.component';
-import { GestaltloveComponent } from './features/Gestaltlove/gestaltlove.component';
+import { GestaltloveComponent } from './features/gestaltlove/gestaltlove.component';
 
 export const ROUTES: Routes = [
   {

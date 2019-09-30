@@ -12,7 +12,7 @@ import { GraphicDesignModule } from './features/graphic-design/graphic-design.mo
 import { UsabilityModule } from './features/usability/usability.module';
 import { SketchingModule } from './features/sketching/sketching.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { GestaltloveModule } from './features/Gestaltlove/gestaltlove.module';
+import { GestaltloveModule } from './features/gestaltlove/gestaltlove.module';
 
 @NgModule({
   declarations: [AppComponent, HomeComponent],
