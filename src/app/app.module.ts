@@ -13,6 +13,7 @@ import { UsabilityModule } from './features/usability/usability.module';
 import { SketchingModule } from './features/sketching/sketching.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { GestaltloveModule } from './features/gestaltlove/gestaltlove.module';
+import { FarvelaereOgTypografiModule } from './features/farvelaereogtypografi/farvelaereogtypografi.module';
 
 @NgModule({
   declarations: [AppComponent, HomeComponent],
@@ -26,7 +27,8 @@ import { GestaltloveModule } from './features/gestaltlove/gestaltlove.module';
     GraphicDesignModule,
     UsabilityModule,
     ContactModule,
-    GestaltloveModule
+    GestaltloveModule,
+    FarvelaereOgTypografiModule
   ],
   providers: [],
   bootstrap: [AppComponent]

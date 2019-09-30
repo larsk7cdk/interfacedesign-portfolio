@@ -7,6 +7,7 @@ import { GraphicDesignComponent } from './features/graphic-design/graphic-design
 import { UsabilityComponent } from './features/usability/usability.component';
 import { SketchingComponent } from './features/sketching/sketching.component';
 import { GestaltloveComponent } from './features/gestaltlove/gestaltlove.component';
+import { FarvelaereOgTypografiComponent } from './features/farvelaereogtypografi/farvelaereogtypografi.component';
 
 export const ROUTES: Routes = [
   {
@@ -20,6 +21,10 @@ export const ROUTES: Routes = [
   {
     path: 'gestaltlove',
     component: GestaltloveComponent
+  },
+  {
+    path: 'farvelaereogtypografi',
+    component: FarvelaereOgTypografiComponent
   },
 
   // {
