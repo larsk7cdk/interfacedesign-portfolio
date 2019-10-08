@@ -10,7 +10,14 @@ export class AppComponent {
     { routerLink: 'home', routerName: 'Forside' },
     { routerLink: 'sketching', routerName: 'Sketching' },
     { routerLink: 'gestaltlove', routerName: 'Gestaltlove' },
-    { routerLink: 'farvelaereogtypografi', routerName: 'Farvelære og Typografi' },
+    {
+      routerLink: 'farvelaereogtypografi',
+      routerName: 'Farvelære og Typografi'
+    },
+    {
+      routerLink: 'helsinge-kameludlejning',
+      routerName: 'Helsinge Kameludlejning'
+    }
     // { routerLink: 'interface-design', routerName: 'Interface Design' },
     // { routerLink: 'interactions-design', routerName: 'Interaktions Design' },
     // { routerLink: 'graphic-design', routerName: 'Grafisk Design' },

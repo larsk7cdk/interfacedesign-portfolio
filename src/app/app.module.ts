@@ -14,6 +14,7 @@ import { SketchingModule } from './features/sketching/sketching.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { GestaltloveModule } from './features/gestaltlove/gestaltlove.module';
 import { FarvelaereOgTypografiModule } from './features/farvelaereogtypografi/farvelaereogtypografi.module';
+import { HelsingeKameludlejningModule } from './features/helsinge-kameludlejning/helsinge-kameludlejning.module';
 
 @NgModule({
   declarations: [AppComponent, HomeComponent],
@@ -28,7 +29,8 @@ import { FarvelaereOgTypografiModule } from './features/farvelaereogtypografi/fa
     UsabilityModule,
     ContactModule,
     GestaltloveModule,
-    FarvelaereOgTypografiModule
+    FarvelaereOgTypografiModule,
+    HelsingeKameludlejningModule
   ],
   providers: [],
   bootstrap: [AppComponent]

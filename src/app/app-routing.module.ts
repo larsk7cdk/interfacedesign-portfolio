@@ -8,6 +8,7 @@ import { UsabilityComponent } from './features/usability/usability.component';
 import { SketchingComponent } from './features/sketching/sketching.component';
 import { GestaltloveComponent } from './features/gestaltlove/gestaltlove.component';
 import { FarvelaereOgTypografiComponent } from './features/farvelaereogtypografi/farvelaereogtypografi.component';
+import { HelsingeKameludlejningComponent } from './features/helsinge-kameludlejning/helsinge-kameludlejning.component';
 
 export const ROUTES: Routes = [
   {
@@ -25,6 +26,10 @@ export const ROUTES: Routes = [
   {
     path: 'farvelaereogtypografi',
     component: FarvelaereOgTypografiComponent
+  },
+  {
+    path: 'helsinge-kameludlejning',
+    component: HelsingeKameludlejningComponent
   },
 
   // {
