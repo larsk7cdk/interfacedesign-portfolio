@@ -15,6 +15,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { GestaltloveModule } from './features/gestaltlove/gestaltlove.module';
 import { FarvelaereOgTypografiModule } from './features/farvelaereogtypografi/farvelaereogtypografi.module';
 import { HelsingeKameludlejningModule } from './features/helsinge-kameludlejning/helsinge-kameludlejning.module';
+import { GangstertestModule } from './features/gangstertest/gangstertest.module';
 
 @NgModule({
   declarations: [AppComponent, HomeComponent],
@@ -30,7 +31,8 @@ import { HelsingeKameludlejningModule } from './features/helsinge-kameludlejning
     ContactModule,
     GestaltloveModule,
     FarvelaereOgTypografiModule,
-    HelsingeKameludlejningModule
+    HelsingeKameludlejningModule,
+    GangstertestModule
   ],
   providers: [],
   bootstrap: [AppComponent]

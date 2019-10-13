@@ -17,6 +17,10 @@ export class AppComponent {
     {
       routerLink: 'helsinge-kameludlejning',
       routerName: 'Helsinge Kameludlejning'
+    },
+    {
+      routerLink: 'gangstertest',
+      routerName: 'Gangstertest'
     }
     // { routerLink: 'interface-design', routerName: 'Interface Design' },
     // { routerLink: 'interactions-design', routerName: 'Interaktions Design' },
