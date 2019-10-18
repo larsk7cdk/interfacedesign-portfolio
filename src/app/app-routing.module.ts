@@ -10,6 +10,7 @@ import { GestaltloveComponent } from './features/gestaltlove/gestaltlove.compone
 import { FarvelaereOgTypografiComponent } from './features/farvelaereogtypografi/farvelaereogtypografi.component';
 import { HelsingeKameludlejningComponent } from './features/helsinge-kameludlejning/helsinge-kameludlejning.component';
 import { GangstertestComponent } from './features/gangstertest/gangstertest.component';
+import { EkspertvurderingComponent } from './features/ekspertvurdering/ekspertvurdering.component';
 
 export const ROUTES: Routes = [
   {
@@ -35,6 +36,10 @@ export const ROUTES: Routes = [
   {
     path: 'gangstertest',
     component: GangstertestComponent
+  },
+  {
+    path: 'ekspertvurdering',
+    component: EkspertvurderingComponent
   },
 
   // {

@@ -21,6 +21,10 @@ export class AppComponent {
     {
       routerLink: 'gangstertest',
       routerName: 'Gangstertest'
+    },
+    {
+      routerLink: 'ekspertvurdering',
+      routerName: 'Ekspertvurdering'
     }
     // { routerLink: 'interface-design', routerName: 'Interface Design' },
     // { routerLink: 'interactions-design', routerName: 'Interaktions Design' },
