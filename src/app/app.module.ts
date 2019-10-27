@@ -17,6 +17,7 @@ import { FarvelaereOgTypografiModule } from './features/farvelaereogtypografi/fa
 import { HelsingeKameludlejningModule } from './features/helsinge-kameludlejning/helsinge-kameludlejning.module';
 import { GangstertestModule } from './features/gangstertest/gangstertest.module';
 import { EkspertvurderingModule } from './features/ekspertvurdering/ekspertvurdering.module';
+import { AIModule } from './features/ia/ai.module';
 
 @NgModule({
   declarations: [AppComponent, HomeComponent],
@@ -34,7 +35,8 @@ import { EkspertvurderingModule } from './features/ekspertvurdering/ekspertvurde
     FarvelaereOgTypografiModule,
     HelsingeKameludlejningModule,
     GangstertestModule,
-    EkspertvurderingModule
+    EkspertvurderingModule,
+    AIModule
   ],
   providers: [],
   bootstrap: [AppComponent]

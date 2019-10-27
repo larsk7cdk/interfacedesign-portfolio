@@ -25,6 +25,10 @@ export class AppComponent {
     {
       routerLink: 'ekspertvurdering',
       routerName: 'Ekspertvurdering'
+    },
+    {
+      routerLink: 'ai',
+      routerName: 'AI'
     }
     // { routerLink: 'interface-design', routerName: 'Interface Design' },
     // { routerLink: 'interactions-design', routerName: 'Interaktions Design' },
