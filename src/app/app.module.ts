@@ -16,6 +16,7 @@ import { GestaltloveModule } from './features/gestaltlove/gestaltlove.module';
 import { FarvelaereOgTypografiModule } from './features/farvelaereogtypografi/farvelaereogtypografi.module';
 import { HelsingeKameludlejningModule } from './features/helsinge-kameludlejning/helsinge-kameludlejning.module';
 import { GangstertestModule } from './features/gangstertest/gangstertest.module';
+import { EkspertvurderingModule } from './features/ekspertvurdering/ekspertvurdering.module';
 
 @NgModule({
   declarations: [AppComponent, HomeComponent],
@@ -32,7 +33,8 @@ import { GangstertestModule } from './features/gangstertest/gangstertest.module'
     GestaltloveModule,
     FarvelaereOgTypografiModule,
     HelsingeKameludlejningModule,
-    GangstertestModule
+    GangstertestModule,
+    EkspertvurderingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
