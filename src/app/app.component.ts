@@ -29,6 +29,10 @@ export class AppComponent {
     {
       routerLink: 'ai',
       routerName: 'AI'
+    },
+    {
+      routerLink: 'responsive',
+      routerName: 'Responsive'
     }
     // { routerLink: 'interface-design', routerName: 'Interface Design' },
     // { routerLink: 'interactions-design', routerName: 'Interaktions Design' },

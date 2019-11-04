@@ -12,6 +12,7 @@ import { HelsingeKameludlejningComponent } from './features/helsinge-kameludlejn
 import { GangstertestComponent } from './features/gangstertest/gangstertest.component';
 import { EkspertvurderingComponent } from './features/ekspertvurdering/ekspertvurdering.component';
 import { AIComponent } from './features/ia/ai.component';
+import { ResponsiveComponent } from './features/uge10-responsive/responsive.component';
 
 export const ROUTES: Routes = [
   {
@@ -45,6 +46,10 @@ export const ROUTES: Routes = [
   {
     path: 'ai',
     component: AIComponent
+  },
+  {
+    path: 'responsive',
+    component: ResponsiveComponent
   },
 
   // {

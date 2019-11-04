@@ -18,6 +18,7 @@ import { HelsingeKameludlejningModule } from './features/helsinge-kameludlejning
 import { GangstertestModule } from './features/gangstertest/gangstertest.module';
 import { EkspertvurderingModule } from './features/ekspertvurdering/ekspertvurdering.module';
 import { AIModule } from './features/ia/ai.module';
+import { ResponsiveModule } from './features/uge10-responsive/responsive.module';
 
 @NgModule({
   declarations: [AppComponent, HomeComponent],
@@ -36,7 +37,8 @@ import { AIModule } from './features/ia/ai.module';
     HelsingeKameludlejningModule,
     GangstertestModule,
     EkspertvurderingModule,
-    AIModule
+    AIModule,
+    ResponsiveModule
   ],
   providers: [],
   bootstrap: [AppComponent]
