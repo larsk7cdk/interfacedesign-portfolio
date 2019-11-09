@@ -27,8 +27,8 @@ export class AppComponent {
       routerName: 'Ekspertvurdering'
     },
     {
-      routerLink: 'ai',
-      routerName: 'AI'
+      routerLink: 'ia',
+      routerName: 'IA'
     },
     {
       routerLink: 'responsive',

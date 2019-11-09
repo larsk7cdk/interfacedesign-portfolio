@@ -17,7 +17,7 @@ import { FarvelaereOgTypografiModule } from './features/farvelaereogtypografi/fa
 import { HelsingeKameludlejningModule } from './features/helsinge-kameludlejning/helsinge-kameludlejning.module';
 import { GangstertestModule } from './features/gangstertest/gangstertest.module';
 import { EkspertvurderingModule } from './features/ekspertvurdering/ekspertvurdering.module';
-import { AIModule } from './features/ia/ai.module';
+import { IAModule } from './features/ia/ia.module';
 import { ResponsiveModule } from './features/uge10-responsive/responsive.module';
 
 @NgModule({
@@ -37,7 +37,7 @@ import { ResponsiveModule } from './features/uge10-responsive/responsive.module'
     HelsingeKameludlejningModule,
     GangstertestModule,
     EkspertvurderingModule,
-    AIModule,
+    IAModule,
     ResponsiveModule
   ],
   providers: [],

@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MatTabsModule } from '@angular/material';
-import { AIComponent } from './ai.component';
+import { IAComponent } from './ia.component';
 
 @NgModule({
-  declarations: [AIComponent],
+  declarations: [IAComponent],
   imports: [CommonModule, MatTabsModule],
-  exports: [AIComponent]
+  exports: [IAComponent]
 })
-export class AIModule {}
+export class IAModule {}

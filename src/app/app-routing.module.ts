@@ -11,7 +11,7 @@ import { FarvelaereOgTypografiComponent } from './features/farvelaereogtypografi
 import { HelsingeKameludlejningComponent } from './features/helsinge-kameludlejning/helsinge-kameludlejning.component';
 import { GangstertestComponent } from './features/gangstertest/gangstertest.component';
 import { EkspertvurderingComponent } from './features/ekspertvurdering/ekspertvurdering.component';
-import { AIComponent } from './features/ia/ai.component';
+import { IAComponent } from './features/ia/ia.component';
 import { ResponsiveComponent } from './features/uge10-responsive/responsive.component';
 
 export const ROUTES: Routes = [
@@ -44,8 +44,8 @@ export const ROUTES: Routes = [
     component: EkspertvurderingComponent
   },
   {
-    path: 'ai',
-    component: AIComponent
+    path: 'ia',
+    component: IAComponent
   },
   {
     path: 'responsive',
