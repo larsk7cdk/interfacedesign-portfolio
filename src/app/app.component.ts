@@ -12,7 +12,7 @@ export class AppComponent {
     { routerLink: 'gestaltlove', routerName: 'Gestaltlove' },
     {
       routerLink: 'farvelaereogtypografi',
-      routerName: 'Farvelære og Typografi'
+      routerName: 'Farvelære/ Typografi'
     },
     {
       routerLink: 'helsinge-kameludlejning',
@@ -33,6 +33,10 @@ export class AppComponent {
     {
       routerLink: 'responsive',
       routerName: 'Responsive'
+    },
+    {
+      routerLink: 'persuasivedesign',
+      routerName: 'Persuasive Design'
     }
     // { routerLink: 'interface-design', routerName: 'Interface Design' },
     // { routerLink: 'interactions-design', routerName: 'Interaktions Design' },

@@ -13,6 +13,7 @@ import { GangstertestComponent } from './features/gangstertest/gangstertest.comp
 import { EkspertvurderingComponent } from './features/ekspertvurdering/ekspertvurdering.component';
 import { IAComponent } from './features/ia/ia.component';
 import { ResponsiveComponent } from './features/uge10-responsive/responsive.component';
+import { PersuasiveDesignComponent } from './features/persuasive-design/persuasive-design.component';
 
 export const ROUTES: Routes = [
   {
@@ -50,6 +51,10 @@ export const ROUTES: Routes = [
   {
     path: 'responsive',
     component: ResponsiveComponent
+  },
+  {
+    path: 'persuasivedesign',
+    component: PersuasiveDesignComponent
   },
 
   // {
