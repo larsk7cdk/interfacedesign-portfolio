@@ -12,7 +12,7 @@ import { HelsingeKameludlejningComponent } from './features/helsinge-kameludlejn
 import { GangstertestComponent } from './features/gangstertest/gangstertest.component';
 import { EkspertvurderingComponent } from './features/ekspertvurdering/ekspertvurdering.component';
 import { IAComponent } from './features/ia/ia.component';
-import { ResponsiveComponent } from './features/uge10-responsive/responsive.component';
+import { ResponsiveComponent } from './features/responsive/responsive.component';
 import { PersuasiveDesignComponent } from './features/persuasive-design/persuasive-design.component';
 
 export const ROUTES: Routes = [

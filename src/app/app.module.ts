@@ -18,7 +18,7 @@ import { HelsingeKameludlejningModule } from './features/helsinge-kameludlejning
 import { GangstertestModule } from './features/gangstertest/gangstertest.module';
 import { EkspertvurderingModule } from './features/ekspertvurdering/ekspertvurdering.module';
 import { IAModule } from './features/ia/ia.module';
-import { ResponsiveModule } from './features/uge10-responsive/responsive.module';
+import { ResponsiveModule } from './features/responsive/responsive.module';
 import { PersuasiveDesignModule } from './features/persuasive-design/persuasive-design.module';
 
 @NgModule({
